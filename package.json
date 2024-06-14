@@ -1,0 +1,21 @@
+{
+  "name": "codethics",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "concurrently \"nodemon ./bin/www\" \"npx tailwindcss -i ./public/stylesheets/style.css -o ./src/output.css --watch\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}

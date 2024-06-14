@@ -1,0 +1,22 @@
+@tailwind base;
+
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-custom {
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@media (max-width: 640px) {
+    .bg-custom {
+        background-size: 60%;
+    }
+}
+
+@tailwind components;
+@tailwind utilities;
